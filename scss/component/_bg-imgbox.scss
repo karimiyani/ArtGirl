@@ -1,0 +1,39 @@
+.bg__img-box{
+    .rectangle{
+        &-header{
+            top: -33rem;
+            right: -25rem;
+            z-index: -1;
+        }
+        &-create{
+            top: -38rem;
+            right: -32rem;
+            z-index: -1;
+        }
+    }
+    .circle{
+        &-header{
+            right: 14rem;
+            top: 2.9rem;
+            z-index: -1;
+        }
+        &-create{
+            right: 17rem;
+            top: 8.37rem;
+            z-index: -1;
+        }
+        
+    }
+    .girl{
+        &-header{
+            top: 13rem;
+            right: 17rem;
+            z-index: -1;
+        }
+        &-create{
+            top: 15rem;
+            right: 17rem;
+            z-index: -1;
+        }
+    }
+}

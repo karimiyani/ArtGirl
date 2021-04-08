@@ -1,0 +1,19 @@
+/* header */
+.header{
+    height: 85vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    &__desc-box{
+        margin: 12rem 0 2rem 12rem;
+        .paragraph{
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            color: $color-primary;
+            span{
+                font-size: 1.8rem;
+                color: $color-primary;
+            }
+        }
+    }
+}
